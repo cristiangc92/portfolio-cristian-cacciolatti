@@ -1,6 +1,6 @@
 function Projects(){
     return(
-        <section>
+        <section id="proyectos">
             <h2>Proyectos</h2>
             <p>Proyecto destacado: NovaWeb</p>
         </section>

@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section>
+        <section id="sobre-mi">
             <h2>Sobre mí</h2>
             <p>
                 Desarrollador Web Full Stack con foco en React y Node.js, experiencia en
