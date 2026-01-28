@@ -1,8 +1,25 @@
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Technologies from './sections/Technologies';
+import Contact from './sections/Contact';
+
 function App() {
   return (
-    <div>
-      <h1>Portfolio de Cristian Gabriel Cacciolatti</h1>
-    </div>
+    <>
+    <Navbar/>
+    <main>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Technologies/>
+      <Contact/>
+    </main>
+    <Footer/>
+    </>
   )
 }
 
