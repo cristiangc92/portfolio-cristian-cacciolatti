@@ -2,50 +2,101 @@ function Projects() {
   return (
     <section id="proyectos" className="bg-light py-5">
       <div className="container">
-        <h2 className="mb-4">Proyectos</h2>
+        <h2 className="mb-5 text-center">Proyectos Destacados</h2>
 
         <div className="row g-4">
-          <div className="col-12 col-md-6">
-            <div className="card h-100 shadow-sm">
+
+          {/* ========================= */}
+          {/* TASKFLOW - PROYECTO PRINCIPAL */}
+          {/* ========================= */}
+          <div className="col-12">
+            <div className="card h-100 shadow-lg border-0">
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">💻 NovaWeb - Landing Institucional</h5>
+                <h4 className="card-title mb-3">
+                  📋 TaskFlow – Plataforma Fullstack de Gestión de Tareas
+                </h4>
+
                 <p className="card-text">
-                  Landing page institucional desarrollada con React y Bootstrap,
-                  simulando un encargo real de cliente. Proyecto enfocado en
-                  componentización, diseño responsive y buenas prácticas.
+                  Aplicación web fullstack diseñada para optimizar la gestión de tareas
+                  en entornos colaborativos. Implementa autenticación segura,
+                  operaciones CRUD completas y arquitectura cliente-servidor desacoplada.
+                  Pensada como solución escalable para equipos y profesionales.
                 </p>
+
+                {/* Badges tecnologías */}
+                <div className="mb-3">
+                  <span className="badge bg-dark me-2">React</span>
+                  <span className="badge bg-dark me-2">Node.js</span>
+                  <span className="badge bg-dark me-2">Express</span>
+                  <span className="badge bg-dark me-2">PostgreSQL</span>
+                  <span className="badge bg-dark me-2">JWT</span>
+                  <span className="badge bg-dark">REST API</span>
+                </div>
 
                 <div className="mt-auto">
                   <a
-                    href="https://landing-institucional.vercel.app/"
+                    href="https://taskflow-frontend-liart.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-dark me-2"
                   >
-                    Ver demo
+                    Ver aplicación
                   </a>
 
                   <a
-                    href="https://github.com/cristiangc92/landing-institucional"
+                    href="https://taskflow-api-pztk.onrender.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-outline-dark"
+                    className="btn btn-outline-dark me-2"
                   >
-                    Ver código
+                    Ver API
+                  </a>
+
+                  <a
+                    href="https://github.com/cristiangc92/taskflow-frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary me-2"
+                  >
+                    GitHub Frontend
+                  </a>
+
+                  <a
+                    href="https://github.com/cristiangc92/taskflow-api"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary"
+                  >
+                    GitHub Backend
                   </a>
                 </div>
               </div>
             </div>
           </div>
 
+          {/* ========================= */}
+          {/* NOVASTORE FRONTEND */}
+          {/* ========================= */}
           <div className="col-12 col-md-6">
-            <div className="card h-100 shadow-sm">
+            <div className="card h-100 shadow-sm border-0">
               <div className="card-body d-flex flex-column">
-                <h5 className="card-title">🛍️ NovaStore – E-commerce (React)</h5>
+                <h5 className="card-title mb-3">
+                  🛍️ NovaStore – Frontend E-commerce
+                </h5>
+
                 <p className="card-text">
-                  Tienda online demo con filtros por categoría y contacto vía WhatsApp.
-                  React · Bootstrap · JavaScript
+                  Interfaz de tienda online desarrollada en React,
+                  enfocada en experiencia de usuario, navegación fluida
+                  y consumo eficiente de API REST.
+                  Simula un escenario real de comercio digital.
                 </p>
+
+                <div className="mb-3">
+                  <span className="badge bg-secondary me-2">React</span>
+                  <span className="badge bg-secondary me-2">Bootstrap</span>
+                  <span className="badge bg-secondary me-2">Axios</span>
+                  <span className="badge bg-secondary">Responsive Design</span>
+                </div>
 
                 <div className="mt-auto">
                   <a
@@ -70,18 +121,54 @@ function Projects() {
             </div>
           </div>
 
-          {/* Proyecto futuro */}
+          {/* ========================= */}
+          {/* NOVASTORE API */}
+          {/* ========================= */}
           <div className="col-12 col-md-6">
-            <div className="card h-100 border-secondary">
-              <div className="card-body d-flex flex-column justify-content-center text-center text-muted">
-                <h5 className="card-title">Proyecto Full Stack</h5>
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title mb-3">
+                  📝 NovaStore API – Backend REST
+                </h5>
+
                 <p className="card-text">
-                  En desarrollo: aplicación full stack con Node.js, Express y
-                  PostgreSQL.
+                  API REST diseñada para soportar operaciones de e-commerce.
+                  Implementa endpoints CRUD, conexión segura con PostgreSQL
+                  y configuración mediante variables de entorno.
+                  Arquitectura preparada para integración con múltiples clientes.
                 </p>
+
+                <div className="mb-3">
+                  <span className="badge bg-secondary me-2">Node.js</span>
+                  <span className="badge bg-secondary me-2">Express</span>
+                  <span className="badge bg-secondary me-2">PostgreSQL</span>
+                  <span className="badge bg-secondary me-2">SSL</span>
+                  <span className="badge bg-secondary">REST</span>
+                </div>
+
+                <div className="mt-auto">
+                  <a
+                    href="https://novastore-api.onrender.com/api/products"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-dark me-2"
+                  >
+                    Ver endpoint
+                  </a>
+
+                  <a
+                    href="https://github.com/cristiangc92/novastore-backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-dark"
+                  >
+                    Ver código
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
