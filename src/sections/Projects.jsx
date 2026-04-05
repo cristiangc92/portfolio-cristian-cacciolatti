@@ -5,6 +5,45 @@ function Projects() {
         <h2 className="mb-5 text-center">Proyectos Destacados</h2>
 
         <div className="row g-4">
+          
+          {/* ========================= */}
+          {/* PERSONAL FINANCE API */}
+          {/* ========================= */}
+          <div className="col-12 col-md-6">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title mb-3">
+                  💰 Personal Finance API – Backend REST
+                </h5>
+
+                <p className="card-text">
+                  API REST para gestión de finanzas personales. Permite registrar
+                  ingresos y gastos, filtrar por categoría y tipo, y obtener
+                  un resumen del balance financiero. Implementa autenticación
+                  segura con JWT y arquitectura por capas.
+                </p>
+
+                <div className="mb-3">
+                  <span className="badge bg-secondary me-2">Node.js</span>
+                  <span className="badge bg-secondary me-2">Express</span>
+                  <span className="badge bg-secondary me-2">PostgreSQL</span>
+                  <span className="badge bg-secondary me-2">JWT</span>
+                  <span className="badge bg-secondary">bcryptjs</span>
+                </div>
+
+                <div className="mt-auto">
+                  <a
+                    href="https://github.com/cristiangc92/personal-finance-api"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-dark"
+                  >
+                    Ver código
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* ========================= */}
           {/* TASKFLOW - PROYECTO PRINCIPAL */}
