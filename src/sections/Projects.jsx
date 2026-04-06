@@ -5,6 +5,52 @@ function Projects() {
         <h2 className="mb-5 text-center">Proyectos Destacados</h2>
 
         <div className="row g-4">
+
+          {/* ========================= */}
+          {/* TRAVEL EXPLORER */}
+          {/* ========================= */}
+          <div className="col-12 col-md-6">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title mb-3">
+                  🌍 Travel Explorer – Frontend React
+                </h5>
+
+                <p className="card-text">
+                  App para explorar los 195 países del mundo. Incluye búsqueda
+                  en tiempo real, filtros por región, página de detalle y
+                  sistema de favoritos persistente con localStorage.
+                </p>
+
+                <div className="mb-3">
+                  <span className="badge bg-secondary me-2">React</span>
+                  <span className="badge bg-secondary me-2">React Router</span>
+                  <span className="badge bg-secondary me-2">Vite</span>
+                  <span className="badge bg-secondary me-2">CSS</span>
+                  <span className="badge bg-secondary">REST API</span>
+                </div>
+
+                <div className="mt-auto">
+                  <a
+                    href="https://travel-explorer-brown.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-dark me-2"
+                  >
+                    Ver demo
+                  </a>
+                  <a
+                    href="https://github.com/cristiangc92/travel-explorer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-dark"
+                  >
+                    Ver código
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           
           {/* ========================= */}
           {/* PERSONAL FINANCE API */}
